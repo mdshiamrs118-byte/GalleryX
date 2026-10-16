@@ -21,7 +21,7 @@
         android:layout_marginRight="14dp"
         android:hint="@string/search_hint"
         app:boxBackgroundMode="outline"
-        app:endIconMode="clear"
+        app:endIconMode="clear_text"
         app:endIconTint="?attr/colorOnSurfaceVariant">
 
         <com.google.android.material.textfield.TextInputEditText
