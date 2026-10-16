@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GalleryX</string>
+
+    <!-- Tabs &amp; navigation -->
+    <string name="tab_photos">Photos</string>
+    <string name="tab_albums">Albums</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="sort">Sort</string>
+    <string name="back">Back</string>
+    <string name="more_options">More options</string>
+
+    <!-- Permission / empty states -->
+    <string name="permission_title">Media access needed</string>
+    <string name="permission_message">GalleryX needs access to your photos and videos so you can browse, organize and edit them. Everything stays on your device.</string>
+    <string name="grant_access">Grant access</string>
+    <string name="permission_denied">Access denied. Allow storage access in system settings to see your media.</string>
+    <string name="empty_title">No photos or videos yet</string>
+    <string name="empty_subtitle">Media on your device will show up here.</string>
+    <string name="no_results">No items found</string>
+
+    <!-- Special albums -->
+    <string name="album_favorites">Favorites</string>
+    <string name="album_hidden">Hidden</string>
+    <string name="album_trash">Recently deleted</string>
+    <string name="album_count">%1$d items</string>
+    <string name="album_count_one">1 item</string>
+    <string name="favorites_empty">Photos and videos you mark as favorite appear here.</string>
+    <string name="hidden_empty">Use the overflow menu on any photo to hide it here.</string>
+    <string name="hidden_notice">Items are hidden inside GalleryX only — the files stay where they are.</string>
+    <string name="trash_empty">Items you delete stay here for 30 days before Android removes them.</string>
+    <string name="trash_unavailable">Trash requires Android 11 or later. On Android 10 deleting is permanent.</string>
+
+    <!-- Actions -->
+    <string name="share">Share</string>
+    <string name="share_title">Share</string>
+    <string name="delete">Delete</string>
+    <string name="favorite">Add to favorites</string>
+    <string name="unfavorite">Remove from favorites</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="details">Details</string>
+    <string name="edit">Edit</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="slideshow_stop">Stop slideshow</string>
+    <string name="set_wallpaper">Set as wallpaper</string>
+    <string name="rename">Rename</string>
+    <string name="restore">Restore</string>
+    <string name="delete_forever">Delete permanently</string>
+    <string name="select_all">Select all</string>
+    <string name="selected_count">%1$d selected</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!-- Results / feedback -->
+    <string name="moved_to_trash">Moved to trash</string>
+    <string name="deleted_items">Deleted %1$d items</string>
+    <string name="restore_done">Restored from trash</string>
+    <string name="delete_failed">Couldn\'t delete this item</string>
+    <string name="rename_title">Rename file</string>
+    <string name="rename_hint">File name</string>
+    <string name="rename_done">Renamed</string>
+    <string name="rename_failed">Couldn\'t rename this file</string>
+    <string name="wallpaper_done">Wallpaper updated</string>
+    <string name="wallpaper_failed">Couldn\'t set the wallpaper</string>
+    <string name="edit_saved">Saved to Pictures/GalleryX</string>
+    <string name="edit_failed">Couldn\'t save the edited photo</string>
+    <string name="path_copied">Path copied</string>
+    <string name="open_maps">Open in maps</string>
+    <string name="copy_path">Copy path</string>
+
+    <!-- Confirmations -->
+    <string name="delete_confirm_title">Move to trash?</string>
+    <string name="delete_confirm_message">You can restore these items from Recently deleted for 30 days.</string>
+    <string name="delete_confirm_title_android10">Delete permanently?</string>
+    <string name="delete_confirm_message_android10">These items will be removed from your device. This cannot be undone.</string>
+    <string name="delete_permanent_title">Delete permanently?</string>
+    <string name="delete_permanent_message">This cannot be undone.</string>
+
+    <!-- Viewer -->
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="video_error">Can\'t play this video</string>
+    <string name="unsupported_media">Can\'t open this file</string>
+
+    <!-- PIN -->
+    <string name="pin_enter">Enter your PIN</string>
+    <string name="pin_setup">Create a 4-digit PIN</string>
+    <string name="pin_confirm">Confirm your PIN</string>
+    <string name="pin_wrong">Wrong PIN, try again</string>
+    <string name="pin_mismatch">PINs don\'t match, start again</string>
+    <string name="pin_changed">PIN updated</string>
+    <string name="pin_removed">PIN removed</string>
+    <string name="pin_change">Change PIN</string>
+    <string name="pin_remove_title">Remove PIN?</string>
+    <string name="pin_remove_message">Anyone using this app will be able to open the hidden album.</string>
+    <string name="pin_remove">Remove</string>
+    <string name="delete_key">Delete</string>
+
+    <!-- Details dialog -->
+    <string name="info_name">Name</string>
+    <string name="info_album">Album</string>
+    <string name="info_type">Type</string>
+    <string name="info_size">Size</string>
+    <string name="info_dimensions">Dimensions</string>
+    <string name="info_duration">Duration</string>
+    <string name="info_date">Date taken</string>
+    <string name="info_path">Path</string>
+    <string name="info_camera">Camera</string>
+    <string name="info_location">Location</string>
+    <string name="info_size_hint">Unknown</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search photos, albums, folders…</string>
+    <string name="filter_all">All</string>
+    <string name="filter_photos">Photos</string>
+    <string name="filter_videos">Videos</string>
+    <string name="filter_gifs">GIFs</string>
+    <string name="filter_screenshots">Screenshots</string>
+
+    <!-- Settings -->
+    <string name="pref_category_general">Display</string>
+    <string name="pref_category_privacy">Hidden album</string>
+    <string name="pref_theme">Theme</string>
+    <string name="pref_theme_summary">Light, dark or follow the system</string>
+    <string name="pref_columns">Grid size</string>
+    <string name="pref_sort">Sort order</string>
+    <string name="pref_slideshow">Slideshow interval</string>
+    <string name="pref_keep_screen">Keep screen on during slideshow</string>
+    <string name="pref_change_pin">Change PIN</string>
+    <string name="pref_change_pin_summary">Protect the hidden album with a PIN</string>
+    <string name="pref_remove_pin">Remove PIN</string>
+    <string name="pref_about">About</string>
+    <string name="about_title">About GalleryX</string>
+    <string name="about_message">GalleryX 1.0.0\nA feature-rich, offline gallery for Android 10+.\nNo ads, no tracking, no internet permission.</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="sort_newest">Newest first</string>
+    <string name="sort_oldest">Oldest first</string>
+    <string name="sort_name">Name (A–Z)</string>
+    <string name="sort_size">Largest first</string>
+    <string name="interval_2">2 seconds</string>
+    <string name="interval_3">3 seconds</string>
+    <string name="interval_5">5 seconds</string>
+    <string name="interval_10">10 seconds</string>
+
+    <!-- Editor -->
+    <string name="edit_title">Edit</string>
+    <string name="rotate">Rotate</string>
+    <string name="flip">Flip</string>
+    <string name="filter_original">Original</string>
+    <string name="filter_bw">B&amp;W</string>
+    <string name="filter_sepia">Sepia</string>
+    <string name="filter_invert">Invert</string>
+    <string name="save_copy">Save copy</string>
+    <string name="edit_unsupported">Editing works on photos only</string>
+</resources>

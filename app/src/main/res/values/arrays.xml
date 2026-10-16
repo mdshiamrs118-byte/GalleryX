@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Grid size -->
+    <string-array name="entries_columns">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="values_columns">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <!-- Sort -->
+    <string-array name="entries_sort">
+        <item>@string/sort_newest</item>
+        <item>@string/sort_oldest</item>
+        <item>@string/sort_name</item>
+        <item>@string/sort_size</item>
+    </string-array>
+    <string-array name="values_sort">
+        <item>newest</item>
+        <item>oldest</item>
+        <item>name</item>
+        <item>size</item>
+    </string-array>
+
+    <!-- Theme -->
+    <string-array name="entries_theme">
+        <item>@string/theme_system</item>
+        <item>@string/theme_light</item>
+        <item>@string/theme_dark</item>
+    </string-array>
+    <string-array name="values_theme">
+        <item>system</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <!-- Slideshow interval -->
+    <string-array name="entries_interval">
+        <item>@string/interval_2</item>
+        <item>@string/interval_3</item>
+        <item>@string/interval_5</item>
+        <item>@string/interval_10</item>
+    </string-array>
+    <string-array name="values_interval">
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+</resources>

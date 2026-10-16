@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#5B6CFF</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#DDE1FF</color>
+    <color name="on_primary_container">#00145E</color>
+
+    <color name="window_background">#FAFAFC</color>
+    <color name="placeholder">#E6E6EB</color>
+
+    <color name="pill_scrim">#CC000000</color>
+    <color name="check_scrim">#66000000</color>
+    <color name="selection_fill">#335B6CFF</color>
+    <color name="video_scrim">#B3000000</color>
+
+    <color name="special_favorites">#E8407A</color>
+    <color name="special_hidden">#5B6CFF</color>
+    <color name="special_trash">#607089</color>
+
+    <color name="ic_launcher_background">#101A3D</color>
+    <color name="ic_launcher_glyph">#FFFFFF</color>
+</resources>

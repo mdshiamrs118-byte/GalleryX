@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="48dp"
+    android:paddingRight="24dp">
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_lock"
+        android:tint="?attr/colorPrimary" />
+
+    <TextView
+        android:id="@+id/pinTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/pin_enter"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pinError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/pin_wrong"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/dot1"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="@drawable/bg_pin_dot_off" />
+
+        <View
+            android:id="@+id/dot2"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="14dp"
+            android:background="@drawable/bg_pin_dot_off" />
+
+        <View
+            android:id="@+id/dot3"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="14dp"
+            android:background="@drawable/bg_pin_dot_off" />
+
+        <View
+            android:id="@+id/dot4"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="14dp"
+            android:background="@drawable/bg_pin_dot_off" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKey1"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:insetBottom="0dp"
+                android:insetTop="0dp"
+                android:text="1"
+                android:textSize="20sp"
+                app:cornerRadius="36dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKey2"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:insetBottom="0dp"
+                android:insetTop="0dp"
+                android:text="2"
+                android:textSize="20sp"
+                app:cornerRadius="36dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKey3"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:insetBottom="0dp"
+                android:insetTop="0dp"
+                android:text="3"
+                android:textSize="20sp"
+                app:cornerRadius="36dp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKey4"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:insetBottom="0dp"
+                android:insetTop="0dp"
+                android:text="4"
+                android:textSize="20sp"
+                app:cornerRadius="36dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKey5"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:insetBottom="0dp"
+                android:insetTop="0dp"
+                android:text="5"
+                android:textSize="20sp"
+                app:cornerRadius="36dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKey6"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:insetBottom="0dp"
+                android:insetTop="0dp"
+                android:text="6"
+                android:textSize="20sp"
+                app:cornerRadius="36dp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKey7"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:insetBottom="0dp"
+                android:insetTop="0dp"
+                android:text="7"
+                android:textSize="20sp"
+                app:cornerRadius="36dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKey8"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:insetBottom="0dp"
+                android:insetTop="0dp"
+                android:text="8"
+                android:textSize="20sp"
+                app:cornerRadius="36dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKey9"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:insetBottom="0dp"
+                android:insetTop="0dp"
+                android:text="9"
+                android:textSize="20sp"
+                app:cornerRadius="36dp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <View
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:visibility="invisible" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKey0"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:insetBottom="0dp"
+                android:insetTop="0dp"
+                android:text="0"
+                android:textSize="20sp"
+                app:cornerRadius="36dp" />
+
+            <ImageButton
+                android:id="@+id/btnKeyDelete"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="7dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/delete_key"
+                android:padding="22dp"
+                android:src="@drawable/ic_backspace"
+                android:tint="?attr/colorOnSurface" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

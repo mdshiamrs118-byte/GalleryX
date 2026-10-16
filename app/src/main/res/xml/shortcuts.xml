@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_lock"
+        android:shortcutId="hidden_album"
+        android:shortcutLongLabel="@string/album_hidden"
+        android:shortcutShortLabel="@string/album_hidden">
+        <intent
+            android:action="com.freebuff.gallery.OPEN_HIDDEN"
+            android:targetClass="com.freebuff.gallery.ui.PinActivity"
+            android:targetPackage="com.freebuff.gallery" />
+    </shortcut>
+</shortcuts>

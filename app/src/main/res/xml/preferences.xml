@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/pref_category_general"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            app:defaultValue="system"
+            app:entries="@array/entries_theme"
+            app:entryValues="@array/values_theme"
+            app:iconSpaceReserved="false"
+            app:key="pref_theme"
+            app:title="@string/pref_theme"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="3"
+            app:entries="@array/entries_columns"
+            app:entryValues="@array/values_columns"
+            app:iconSpaceReserved="false"
+            app:key="pref_columns"
+            app:title="@string/pref_columns"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="newest"
+            app:entries="@array/entries_sort"
+            app:entryValues="@array/values_sort"
+            app:iconSpaceReserved="false"
+            app:key="pref_sort"
+            app:title="@string/pref_sort"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="3"
+            app:entries="@array/entries_interval"
+            app:entryValues="@array/values_interval"
+            app:iconSpaceReserved="false"
+            app:key="pref_slideshow"
+            app:title="@string/pref_slideshow"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="pref_keep_screen"
+            app:title="@string/pref_keep_screen" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_privacy"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="pref_change_pin"
+            app:summary="@string/pref_change_pin_summary"
+            app:title="@string/pref_change_pin" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="pref_remove_pin"
+            app:title="@string/pref_remove_pin" />
+    </PreferenceCategory>
+
+    <Preference
+        app:iconSpaceReserved="false"
+        app:key="pref_about"
+        app:title="@string/pref_about" />
+</PreferenceScreen>
