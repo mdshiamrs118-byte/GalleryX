@@ -1,5 +1,6 @@
 package com.freebuff.gallery.data
 
+import android.content.ContentResolver
 import android.content.ContentUris
 import android.content.ContentValues
 import android.content.Context
@@ -137,10 +138,10 @@ object MediaRepository {
         val cursor = try {
             if (Build.VERSION.SDK_INT >= 30) {
                 val args = Bundle().apply {
-                    putString(MediaStore.QUERY_ARG_SQL_SELECTION, selection)
+                    putString(ContentResolver.QUERY_ARG_SQL_SELECTION, selection)
                     putInt(
                         MediaStore.QUERY_ARG_MATCH_TRASHED,
-                        if (trashed) MediaStore.MATCH_TRASHED_INCLUDE else MediaStore.MATCH_TRASHED_EXCLUDE
+                        if (trashed) MediaStore.MATCH_ONLY else MediaStore.MATCH_EXCLUDE
                     )
                 }
                 resolver.query(uri, PROJECTION, args, null)

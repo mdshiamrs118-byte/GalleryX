@@ -45,7 +45,7 @@ class ZoomableImageView @JvmOverloads constructor(
                 if (drawable == null) return false
                 val factor = detector.scaleFactor
                 if (factor.isNaN() || factor.isInfinite() || factor <= 0f) return false
-                displayMatrix.postScale(factor, detector.focusX, detector.focusY)
+                displayMatrix.postScale(factor, factor, detector.focusX, detector.focusY)
                 clamp()
                 apply()
                 return true
